@@ -4,35 +4,55 @@
         <meta charset="utf-8">
         <title>Pro Patrol Webpage</title>
         <style>
-        h1{color:orangered}
+
         body{    
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(0, 0, 100);
+        }    
+
+        .menu{
+            font-size: 26px;
+            color:orangered;
+            width: 1000px;
+            float: left;
+        }
+        
+        .latest{
+            color:orangered;
+            font-size: 26px
         }
 
         .center{
             display:block;
             margin-left:auto;
             margin-right:auto;
-            width=50%
         }
+        
+        .youtube{
+            frameborder="1" 
+            allow="accelerometer; 
+            autoplay; 
+            encrypted-media; 
+            gyroscope;
+            picture-in-picture" 
+            allowfullscreen
 
         </style>
     </head>
     <body>
-    
+
         <img src="ProPatrolLogo.jpg" width=300 alt="ProPatrolLogo" class="center">
         
-        <h1 align="center">Pro Patrol</h1>
+        <div class="menu">
+            <div> Episodes </div>
+            <div> About</div>
+            <div> Contact</div>     
+        </div>
 
-        <iframe width="140" height="90" src="https://www.youtube.com/embed/inSVGK4hwDI" 
-        frameborder="1" allow="accelerometer; 
-        autoplay; encrypted-media; gyroscope; 
-        picture-in-picture" allowfullscreen></iframe>
+        <div class="latest">
+            <div>Latest Episode</div>
+            <div><iframe width="140" height="90" src="https://www.youtube.com/embed/inSVGK4hwDI" class="youtube"></iframe></div>
+            <div>description</div>
+        </div>
         
-        
-            
-
-
-
     </body>
 </html>
